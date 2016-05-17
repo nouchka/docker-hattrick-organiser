@@ -1,0 +1,8 @@
+ho:
+  image: nouchka/hattrick-organiser
+  environment:
+    - DISPLAY=unix$DISPLAY
+  volumes:
+    - /tmp/.X11-unix:/tmp/.X11-unix
+    - ~/hrf/:/home/user/hrf/
+    - ~/hrf/:/home/user/.hattrickorganizer/
