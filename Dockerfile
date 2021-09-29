@@ -6,6 +6,7 @@ LABEL version="latest"
 
 ARG HO_FILE_SHA256SUM=f37618d8ec16f85c404af8a1bd39dd1c03ab781f747b1c23693f82819cd79549
 ARG HO_FILE_VERSION=1.434/HO_1434_r2696
+ENV VERSION ${HO_FILE_VERSION}
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update && \

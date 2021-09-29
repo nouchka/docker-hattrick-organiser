@@ -1,11 +1,8 @@
-# docker-ho
-
-[![Docker Hub repository](http://dockeri.co/image/nouchka/hattrick-organiser)](https://registry.hub.docker.com/u/nouchka/hattrick-organiser/)
-
-[![](https://images.microbadger.com/badges/image/nouchka/hattrick-organiser.svg)](https://microbadger.com/images/nouchka/hattrick-organiser "Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/nouchka/hattrick-organiser.svg)](https://microbadger.com/images/nouchka/hattrick-organiser "Get your own version badge on microbadger.com")
-[![Docker Automated buil](https://img.shields.io/docker/automated/nouchka/hattrick-organiser.svg)](https://hub.docker.com/r/nouchka/hattrick-organiser/)
-[![Build Status](https://travis-ci.org/nouchka/docker-ho.svg?branch=master)](https://travis-ci.org/nouchka/docker-ho)
+# docker-hattrick-organiser
+[![Docker pull](https://img.shields.io/docker/pulls/nouchka/hattrick-organiser)](https://hub.docker.com/r/nouchka/hattrick-organiser/)
+[![Docker stars](https://img.shields.io/docker/stars/nouchka/hattrick-organiser)](https://hub.docker.com/r/nouchka/hattrick-organiser/)
+[![Build Status](https://gitlab.com/japromis/docker-hattrick-organiser/badges/master/pipeline.svg)](https://gitlab.com/japromis/docker-hattrick-organiser/pipelines)
+[![Docker size](https://img.shields.io/docker/image-size/nouchka/hattrick-organiser/latest)](https://hub.docker.com/r/nouchka/hattrick-organiser/)
 
 # Versions
 
@@ -23,7 +20,3 @@ Use with docker compose:
 # Todo
 
 * 
-
-# Donate
-
-Bitcoin Address: 15NVMBpZJTvkefwfsMAFA3YhyiJ5D2zd3R
