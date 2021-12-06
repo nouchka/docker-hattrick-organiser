@@ -10,7 +10,7 @@ ENV VERSION ${HO_FILE_VERSION}
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN apt-get update && \
-	DEBIAN_FRONTEND=noninteractive apt-get -yq --no-install-recommends install wget=* openjdk-16-jre=* && \
+	DEBIAN_FRONTEND=noninteractive apt-get -yq --no-install-recommends install wget=* openjdk-17-jre=* && \
 	rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
 	wget -O /usr/bin/ho https://github.com/akasolace/HO/releases/download/${HO_FILE_VERSION}/HO-4.1.3310.2-unix.sh && \
 	sha256sum /usr/bin/ho && \
